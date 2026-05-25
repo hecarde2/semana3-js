@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        input {
+            padding: 8px;
+            width: 250px;
+        }
+
+        button {
+            padding: 8px 12px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+
+        li {
+            margin-top: 10px;
+        }
+
+        .btn-eliminar {
+            margin-left: 10px;
+            background-color: crimson;
+            color: white;
+            border: none;
+            padding: 5px 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Lista de Notas</h1>
+
+    <p>
+        Escribe una nota y presiona el botón "Agregar".
+    </p>
+
+    <!-- Input y botón -->
+    <input type="text" id="inputNota" placeholder="Escribe una nota">
+
+    <button id="btnAgregar">
+        Agregar
+    </button>
+
+    <!-- Lista -->
+    <ul id="listaNotas"></ul>
+
+    <!-- Archivo JS -->
+    <script src="app.js"></script>
+
+</body>
+</html>
